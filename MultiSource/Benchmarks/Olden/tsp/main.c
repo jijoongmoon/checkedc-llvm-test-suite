@@ -1,7 +1,6 @@
 /* For copyright information, see olden_v1.0/COPYRIGHT */
 
 #include "tsp.h"
-#include <stdio.h>
 #define conquer_thresold 150  /* tsp() will use conquer for problems <= conquer_thresold */
 extern int flag;
 

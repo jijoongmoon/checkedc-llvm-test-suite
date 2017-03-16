@@ -1,4 +1,8 @@
 #ifdef TORONTO
+#include <stdio_checked.h>
+#include <stdlib_checked.h>
+#include <string_checked.h>
+
 /* Toronto's hack */
 #define ALLOC(p, sz)      malloc(sz)
 #define chatting          printf  
